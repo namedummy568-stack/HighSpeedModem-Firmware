@@ -14,9 +14,16 @@ void reduce_latency() {
     printf("Latency Reduced\n");
 }
 
+// Error Correction Coding (ECC) Module
+void ecc_module() {
+    // ... ECC logic ...
+    printf("ECC Module Added\n");
+}
+
 int main() {
     printf("High-Speed Modem Firmware - Initial Version\n");
     qam_modulate();
     reduce_latency();
+    ecc_module();
     return 0;
 }
